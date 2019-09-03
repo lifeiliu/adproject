@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4ade4d9-3a2d-4fbc-8c2c-160d56625900" name="Default Changelist" comment="" />
+    <list default="true" id="b4ade4d9-3a2d-4fbc-8c2c-160d56625900" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/lilypad/ad/index/IndexFileLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/lilypad/ad/mysql/constant/OpType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/lilypad/ad/mysql/dto/JsonTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/lilypad/ad/mysql/dto/TableTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/lilypad/ad/mysql/dto/Template.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/lilypad/ad/mysql/temp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/lilypad/ad/service/BinlogServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/resources/template,json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/lilypad/ad/handler/AdLevelDataHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/lilypad/ad/handler/AdLevelDataHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/lilypad/ad/utils/CommonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/lilypad/ad/utils/CommonUtils.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,11 +39,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -39,11 +56,15 @@
     </option>
   </component>
   <component name="ProjectId" id="1Pgqrnma2slpaTStipGHbQ0yob3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/com/lilypad/ad/vo" />
@@ -86,7 +107,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ZuulGatewayApplication">
+  <component name="RunManager" selected="Application.BinlogServiceTest">
+    <configuration name="BinlogServiceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lilypad.ad.service.BinlogServiceTest" />
+      <module name="ad-search" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lilypad.ad.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="ad-eureka" />
       <extension name="coverage">
@@ -129,6 +163,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinlogServiceTest" />
         <item itemvalue="Spring Boot.ZuulGatewayApplication" />
         <item itemvalue="Spring Boot.EurekaApplication" />
       </list>
@@ -167,12 +202,26 @@
       <workItem from="1566526925110" duration="3072000" />
       <workItem from="1566570945423" duration="16093000" />
       <workItem from="1566590079462" duration="10974000" />
-      <workItem from="1566678151747" duration="60683000" />
+      <workItem from="1566678151747" duration="73948000" />
+      <workItem from="1567092388614" duration="2802000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
